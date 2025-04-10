@@ -31,14 +31,17 @@ export default function Home() {
             IvyLink helps you tailor your personal statement to each college's
             unique values, ensuring your essay resonates with admissions criteria.
           </p>
-          <button
-            className="mt-8 px-8 py-3 rounded-full bg-sky-blue text-white text-lg hover:bg-teal focus:outline-none focus:ring-2 focus:ring-sky-blue focus:ring-opacity-50"
-            style={{ backgroundColor: "#4A90E2" }}
-          >
-            Sign Up
-          </button>
+          <a href="/signup">
+            <button
+              className="mt-8 px-8 py-3 rounded-full bg-sky-blue text-white text-lg hover:bg-teal focus:outline-none focus:ring-2 focus:ring-sky-blue focus:ring-opacity-50"
+              style={{ backgroundColor: "#4A90E2" }}
+            >
+              Sign Up
+            </button>
+          </a>
         </div>
       </section>
+
       {/* Further content sections can be added here */}
       <footer className="mt-12 py-6 border-t border-light-grey w-full">
         <div className="container mx-auto text-center text-dark-grey">
